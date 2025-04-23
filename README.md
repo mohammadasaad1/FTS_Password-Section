@@ -150,5 +150,6 @@ Congratulations on submitting your completed challenge! 🚀 Here are some possi
 At GreatFrontEnd projects, we greatly value receiving feedback as it helps us continuously improve and refine our products/services to better meet the needs and expectations of our customers and stakeholders. If you have any feedback or questions, the best channels to reach out would be our [Discord community](https://www.greatfrontend.com/community), our [LinkedIn Page](https://www.linkedin.com/company/greatfrontend), or send an email to contact@greatfrontend.com.
 
 🔥 Good luck on your Front End Developer journey! 🔥
-#   F T S _ P a s s w o r d - S e c t i o n  
+#   F T S _ P a s s w o r d - S e c t i o n 
+ 
  
