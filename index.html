@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GreatFrontEnd Projects</title>
+      <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+   
+      <div class="container">
+        <main>
+          <div class="header">
+            <h1>Manage Security</h1>
+            <p>Protect your data and ensure secure interactions.</p>
+          </div>
+          <br>
+
+
+          <form id="passwordForm">
+            <label>Current password</label>
+            <div class="input-group">
+              <input type="password" id="currentPassword" placeholder="Enter you current Password" oninput="validatePassword()" required />
+              <span class="toggle-password" onclick="toggleVisibility('currentPassword')">👁️</span>
+            </div>
+            
+            <label>New password</label>
+            <div class="input-group">
+              <input type="password" id="newPassword" placeholder="Enter you new Password" required oninput="validatePassword()" />
+              <span class="toggle-password" onclick="toggleVisibility('newPassword')">👁️</span>
+            </div>
+            
+            <ul class="requirements">
+              <li id="length"><span><img class="sizeIt" src="designs/round-checkmark-icon-in-red-free-vector.jpg" alt="redFlag"></span> 8 - 64 characters</li>
+              <li id="uppercase"><span><img class="sizeIt" src="designs/round-checkmark-icon-in-red-free-vector.jpg" alt="redFlag"></span>One uppercase letter</li>
+              <li id="lowercase"><span><img class="sizeIt" src="designs/round-checkmark-icon-in-red-free-vector.jpg" alt="redFlag"></span>One lowercase letter</li>
+              <li id="number"><span><img class="sizeIt" src="designs/round-checkmark-icon-in-red-free-vector.jpg" alt="redFlag"></span>One number</li>
+              <li id="special"><span><img class="sizeIt" src="designs/round-checkmark-icon-in-red-free-vector.jpg" alt="redFlag"></span>One special character (!@#$%^&*)</li>
+            </ul>
+          
+            <label>Confirm new password</label>
+            <div class="input-group">
+            <input type="password" id="confirmPassword" placeholder="Repeat you current Password" required oninput="validatePassword()" />
+            <span class="toggle-password" onclick="toggleVisibility('confirmPassword')">👁️</span>
+          </div>
+
+          <p id="confirmFeedback" class="feedback"></p>
+          <br>
+          <button type="submit" id="saveBtn" disabled>Save changes</button>
+        </form>
+
+
+
+        
+        <div class="credits" data-gfe-screenshot-exclude="true">
+          A challenge by
+          <a
+          href="https://www.greatfrontend.com/projects?ref=challenges"
+          target="_blank"
+          >GreatFrontEnd Projects</a
+          >. Built by
+          <a
+          href="https://www.greatfrontend.com/projects/u/username"
+          target="_blank"
+          >Mohammad As'ad</a
+          >.
+        </div>
+      </main>
+    </div>  
+    <script src="js/index.js"></script>
+  </body>
+</html>

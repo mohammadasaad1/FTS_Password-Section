@@ -1,0 +1,124 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  color: #333;  
+ 
+  height: 100%;
+
+ 
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.credits {
+  color: #777;
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+
+.container {
+  width: 100%;
+  background: white;
+
+    min-height: 100vh;
+
+  gap: 20px;
+  padding: 30px;
+  
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label{
+  font-size: 0.8em;
+  margin-bottom: 5px;
+  display: block;
+  
+  color: #333;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.requirements {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: #535353;
+}
+
+.requirements li {
+  display: flex;
+  align-items: center;  
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.requirements li.valid {
+  color: green;
+}
+
+.requirements li.invalid {
+  color: gray;
+}
+
+.feedback {
+  color: red;
+  font-size: 0.85em;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sizeIt{
+  width: 20px;
+  height: 20px;
+}
