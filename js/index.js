@@ -1,5 +1,4 @@
-// script.js
-
+// to create a pull request to the main branch
 function toggleVisibility(fieldId) {
     const field = document.getElementById(fieldId);
     field.type = field.type === 'password' ? 'text' : 'password';
